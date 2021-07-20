@@ -1,0 +1,110 @@
+*{margin: 0; padding: 0;}
+body{
+	background: url(../img/bg.jpg) repeat-x #bfbfbf;
+}
+.page{
+	background: white;
+	width: 980px;
+	height: auto;
+	margin: auto;
+
+}
+header{
+	height: 130px;
+	background: white;
+	border-bottom: 10px solid #ccc;
+}
+.left{
+	float: left;
+}
+.left img{
+	width: 130px;
+}
+.right{
+	float: right;
+	text-align: right;
+}
+.twitter img{
+	width: 35px;
+	height: 35px;
+}
+nav{
+	float: right;
+	margin-right: -1px;
+}
+nav ul{
+	list-style: none;
+	padding-top: 27px;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	background: #373c3f;
+	padding: 5px 15px;
+	border-right: 1px solid white;
+}
+nav ul li a:hover, .active a{
+	background: #ccc;
+	color: #2b363d;
+}
+.slider img{
+	width: 100%;
+	height: 300px;
+}
+.content {
+	padding: 10px;
+	overflow: hidden;
+}
+.colt{
+	width: 650px;
+	float: left;
+	border-right: 1px dotted black;
+	text-align: left;
+	font-size: 12px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 10px;
+}
+.form-c{
+	margin: 10px;
+	padding: 5px;
+	float: none;
+}
+.colt h3, .cort h3{
+	color: #1e323f;
+	text-shadow: 2px 2px 4px #044470;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.cort{
+	width: 280px;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+}
+.btn{
+	background-color: #044470;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-left: 40%;
+}
+/*no need to do this if you put overflow as hidden in content*/
+/*.clc{
+	clear: both;
+}*/
+footer{
+	width: 100%;
+	height: 50px;
+	color: #FFF;
+	background: #243038;
+	text-align: center;
+	font-size: small;
+	padding-top: 20px;
+}
